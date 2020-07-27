@@ -10,6 +10,6 @@ size(500, 500);
   textSize(100);
   textLeading(100);
   text("aABC123\nDEF456", 0, 0);
-  println(calcAvgBright(font, ' '));
+  println(calcAvgBright(font, '1'));
   println(calcAvgBright(font, 'E'));
 }
