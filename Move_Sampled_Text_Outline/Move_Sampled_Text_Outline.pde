@@ -4,9 +4,10 @@ float noiseP = 0.1;//noise power
 ArrayList<ArrayList<Path>> charactors;
 
 void setup(){
-  size(500, 500);
+  size(1280, 720);
+  //fullScreen();
   textAlign(CENTER, CENTER);
-  charactors = genPath("Segoe UI", 100, "Example!", 50, height/2);
+  charactors = genPath("Segoe UI", height/5, "Example!", width/3.5, height/2);
   for(ArrayList<Path> charactor : charactors){
     for(Path path : charactor){
       path.sample(spacing ,true);
